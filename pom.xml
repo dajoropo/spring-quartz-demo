@@ -61,30 +61,4 @@
         </plugins>
     </build>
 
-    <repositories>
-        <repository>
-            <id>artifactory-elca</id>
-            <url>https://artifactory.svc.elca.ch/artifactory/public/</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>artifactory-elca</id>
-            <url>https://artifactory.svc.elca.ch/artifactory/public/</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </pluginRepository>
-    </pluginRepositories>
-
 </project>
